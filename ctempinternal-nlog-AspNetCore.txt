@@ -1,0 +1,34 @@
+2022-08-17 10:25:31.8364 Info Message Template Auto Format enabled
+2022-08-17 10:25:31.9697 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-17 10:25:32.1439 Info Adding target FileTarget(Name=allfile)
+2022-08-17 10:25:32.1531 Info Adding target FileTarget(Name=ownFile-web)
+2022-08-17 10:25:32.1630 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-08-17 10:25:32.3390 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=/mnt/c/Users/Mina.Dadashi/Desktop/LoopAcademyProject/bin/Debug/net6.0/NLog.config
+2022-08-17 10:25:32.4881 Warn FileTarget(Name=allfile): Failed to create file appender: /mnt/c/Users/Mina.Dadashi/Desktop/LoopAcademyProject/bin/Debug/net6.0/D:\temp\nlog-AspNetCore-all-2022-08-17.log Exception: System.UnauthorizedAccessException: Access to the path '/mnt/c/Users/Mina.Dadashi/Desktop/LoopAcademyProject/bin/Debug/net6.0/D:\temp\nlog-AspNetCore-all-2022-08-17.log' is denied.
+ ---> System.IO.IOException: Operation not permitted
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at System.IO.FileStatus.SetAccessOrWriteTime(String path, DateTimeOffset time, Boolean isAccessTime)
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender..ctor(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender.Factory.NLog.Internal.FileAppenders.IFileAppenderFactory.Open(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.FileAppenderCache.CreateAppender(String fileName, Int32 freeSpot)
+2022-08-17 10:25:32.6654 Warn FileTarget(Name=ownFile-web): Failed to create file appender: /mnt/c/Users/Mina.Dadashi/Desktop/LoopAcademyProject/bin/Debug/net6.0/D:\temp\nlog-AspNetCore-own-2022-08-17.log Exception: System.UnauthorizedAccessException: Access to the path '/mnt/c/Users/Mina.Dadashi/Desktop/LoopAcademyProject/bin/Debug/net6.0/D:\temp\nlog-AspNetCore-own-2022-08-17.log' is denied.
+ ---> System.IO.IOException: Operation not permitted
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at System.IO.FileStatus.SetAccessOrWriteTime(String path, DateTimeOffset time, Boolean isAccessTime)
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender..ctor(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender.Factory.NLog.Internal.FileAppenders.IFileAppenderFactory.Open(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.FileAppenderCache.CreateAppender(String fileName, Int32 freeSpot)
+2022-08-17 10:25:34.4409 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=/mnt/c/Users/Mina.Dadashi/Desktop/LoopAcademyProject/bin/Debug/net6.0/NLog.config
+2022-08-17 10:28:32.4982 Info Message Template Auto Format enabled
+2022-08-17 10:28:32.5657 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-17 10:28:32.6517 Info Adding target FileTarget(Name=allfile)
+2022-08-17 10:28:32.6651 Info Adding target FileTarget(Name=ownFile-web)
+2022-08-17 10:28:32.6707 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-08-17 10:28:32.7774 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=/mnt/c/Users/Mina.Dadashi/Desktop/LoopAcademyProject/bin/Debug/net6.0/NLog.config
+2022-08-17 10:28:34.5108 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=/mnt/c/Users/Mina.Dadashi/Desktop/LoopAcademyProject/bin/Debug/net6.0/NLog.config
